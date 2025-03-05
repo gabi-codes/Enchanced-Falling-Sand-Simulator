@@ -1,20 +1,20 @@
 [gd_scene load_steps=24 format=3 uid="uid://boghipu6ngcus"]
 
-[ext_resource type="Script" path="res://main.gd" id="1_mcwku"]
-[ext_resource type="Texture2D" uid="uid://dd3usnaruwwr2" path="res://Assets/background.png" id="2_icmj6"]
-[ext_resource type="Texture2D" uid="uid://ddgw18my473jm" path="res://Assets/water.png" id="3_3j3pq"]
-[ext_resource type="Texture2D" uid="uid://csppiqyfwgngh" path="res://Assets/oil.png" id="4_v7n87"]
-[ext_resource type="Texture2D" uid="uid://dmrga71mmox6o" path="res://Assets/lava.png" id="5_7cbmg"]
-[ext_resource type="Texture2D" uid="uid://bw88qxsf8vggm" path="res://Assets/rock.png" id="6_f7npv"]
-[ext_resource type="Texture2D" uid="uid://dxjt63irexcmn" path="res://Assets/wood.png" id="7_p2qa7"]
-[ext_resource type="Texture2D" uid="uid://ciedw2yp65hth" path="res://Assets/sand.png" id="8_11gvl"]
-[ext_resource type="Texture2D" uid="uid://d2737obju4gr" path="res://Assets/gunpowder.png" id="9_3bb2i"]
-[ext_resource type="Texture2D" uid="uid://7bgbesbx3w2k" path="res://Assets/fire.png" id="10_olhyi"]
-[ext_resource type="Texture2D" uid="uid://b86a41u4iwols" path="res://Assets/smoke.png" id="11_uc0j1"]
-[ext_resource type="Texture2D" uid="uid://blj7g8td7830q" path="res://Assets/explosion.png" id="12_47hxe"]
+[ext_resource type="Script" path="res://Main/main.gd" id="1_c773b"]
+[ext_resource type="Texture2D" uid="uid://dd3usnaruwwr2" path="res://Assets/background.png" id="2_i40wf"]
+[ext_resource type="Texture2D" uid="uid://ddgw18my473jm" path="res://Assets/water.png" id="3_8jtvg"]
+[ext_resource type="Texture2D" uid="uid://csppiqyfwgngh" path="res://Assets/oil.png" id="4_0fe6q"]
+[ext_resource type="Texture2D" uid="uid://dmrga71mmox6o" path="res://Assets/lava.png" id="5_a3bfi"]
+[ext_resource type="Texture2D" uid="uid://bw88qxsf8vggm" path="res://Assets/rock.png" id="6_gihcr"]
+[ext_resource type="Texture2D" uid="uid://dxjt63irexcmn" path="res://Assets/wood.png" id="7_eeh3o"]
+[ext_resource type="Texture2D" uid="uid://ciedw2yp65hth" path="res://Assets/sand.png" id="8_51esu"]
+[ext_resource type="Texture2D" uid="uid://d2737obju4gr" path="res://Assets/gunpowder.png" id="9_4gpnb"]
+[ext_resource type="Texture2D" uid="uid://7bgbesbx3w2k" path="res://Assets/fire.png" id="10_4oaaa"]
+[ext_resource type="Texture2D" uid="uid://b86a41u4iwols" path="res://Assets/smoke.png" id="11_pfaph"]
+[ext_resource type="Texture2D" uid="uid://blj7g8td7830q" path="res://Assets/explosion.png" id="12_rxqf2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y1e88"]
-texture = ExtResource("3_3j3pq")
+texture = ExtResource("3_8jtvg")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -22,7 +22,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3uu83"]
-texture = ExtResource("4_v7n87")
+texture = ExtResource("4_0fe6q")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -30,7 +30,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l0fwp"]
-texture = ExtResource("5_7cbmg")
+texture = ExtResource("5_a3bfi")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -38,7 +38,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4ok0u"]
-texture = ExtResource("6_f7npv")
+texture = ExtResource("6_gihcr")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -46,7 +46,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dj3rc"]
-texture = ExtResource("7_p2qa7")
+texture = ExtResource("7_eeh3o")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -54,7 +54,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_78ood"]
-texture = ExtResource("8_11gvl")
+texture = ExtResource("8_51esu")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -62,7 +62,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3rm1k"]
-texture = ExtResource("9_3bb2i")
+texture = ExtResource("9_4gpnb")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -70,7 +70,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ptair"]
-texture = ExtResource("10_olhyi")
+texture = ExtResource("10_4oaaa")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -78,7 +78,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n51t1"]
-texture = ExtResource("11_uc0j1")
+texture = ExtResource("11_pfaph")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -86,7 +86,7 @@ texture_region_size = Vector2i(4, 4)
 3:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lk6h8"]
-texture = ExtResource("12_47hxe")
+texture = ExtResource("12_rxqf2")
 texture_region_size = Vector2i(4, 4)
 0:0/0 = 0
 1:0/0 = 0
@@ -107,13 +107,13 @@ sources/8 = SubResource("TileSetAtlasSource_n51t1")
 sources/9 = SubResource("TileSetAtlasSource_lk6h8")
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_mcwku")
+script = ExtResource("1_c773b")
 metadata/_edit_horizontal_guides_ = []
 
 [node name="background" type="Sprite2D" parent="."]
 position = Vector2(574, 326)
 scale = Vector2(0.6125, 0.625926)
-texture = ExtResource("2_icmj6")
+texture = ExtResource("2_i40wf")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_e2iph")
