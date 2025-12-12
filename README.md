@@ -1,31 +1,42 @@
 # Enhanced Falling Sand Simulator
 
-This is an enhanced version of the classic falling sand simulation made in Godot 4.1.2, providing improved mechanics, additional materials, and interactions beetween them. The project simulates various particle interactions, including sand, water, fire, and other elements, following basic physics and cellular automata principles.
+An expanded and modernized take on the classic "falling sand" simulation, built in **Godot 4.1.2**.  
+The project introduces improved mechanics, additional materials, and deeper interactions powered by **particle physics** and **cellular automata principles**.
+
+This simulation demonstrates optimized real-time particle behavior and serves as a sandbox for experimenting with material interactions, emergent effects, and simple rule-based physics.
+
+---
+
+## Preview
+<!-- Add GIF or screenshot here -->
+<!-- Example: ![demo](path/to/demo.gif) -->
+
+---
 
 ## Features
-- Particle-based physics simulation
-- Multiple materials with unique interactions beetween them:
-  - Sand
-  - Water
-  - Fire
-  - Oil
-  - Lava
-  - Smoke
-  - Wood
-  - Gunpowder
-- Slightly optimized performance for smoother rendering
-- Simple and intuitive user interface
 
-## How to Use
-- Select a material from the available options.
-- Click or drag on the canvas to place particles.
-- Observe interactions and modify parameters as needed.
+- **Particle-based physics simulation** with real-time updates  
+- **Multiple materials**, each with unique behavior and interactions:
+  - Sand  
+  - Water  
+  - Fire  
+  - Oil  
+  - Lava  
+  - Smoke  
+  - Wood  
+  - Gunpowder  
+- **Rule-driven material interaction system** based on cellular automata  
+- **Optimized performance** for smoother rendering  
+- **Simple and intuitive UI** for selecting and placing materials  
+- Supports both **click** and **click-drag** drawing for quick experimentation  
 
-## Project Status
-This project is a prototype and will not receive further development. It is not fully optimized.
+---
+
+## Purpose of the Project
+
+This project was created as a technical exploration of **particle behavior**, **rule-based systems**, and **emergent gameplay mechanics**, inspired by classic falling sand games and extended with modern improvements.
+
+---
 
 ## License
-This project is available under the MIT License.
-
-
- 
+Free for educational and experimental use.
