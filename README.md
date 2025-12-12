@@ -8,8 +8,7 @@ This simulation demonstrates optimized real-time particle behavior and serves as
 ---
 
 ## Preview
-<!-- Add GIF or screenshot here -->
-<!-- Example: ![demo](path/to/demo.gif) -->
+![demo](previewgif.gif)
 
 ---
 
