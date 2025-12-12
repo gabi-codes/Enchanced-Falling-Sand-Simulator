@@ -1,4 +1,4 @@
-# Enhanced Falling Sand Simulator
+# Enhanced Cellular	Automata
 
 An expanded and modernized take on the classic "falling sand" simulation, built in **Godot 4.1.2**.  
 The project introduces improved mechanics, additional materials, and deeper interactions powered by **particle physics** and **cellular automata principles**.
